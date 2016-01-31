@@ -27,6 +27,7 @@ function Monkey( name, numberOfBananasOwned ) {
 
 Monkey.prototype.eatBanana = function() {
 
+	this.numberOfBananasInStash--;
     this.stomachContents.push( 'banana' );
 };
 
@@ -39,12 +40,9 @@ function feedMonkeyAllBananas( monkey ) {
 
 	console.log( 'Now feeding', monkey.name + ':' );
 
-	const initialNumberOfBananas = monkey.numberOfBananasInStash;
-
-	for( var i = 1; i <= initialNumberOfBananas; i++ ) {
+	while( monkey.numberOfBananasInStash > 0 ) {
 
 		monkey.eatBanana();
-		monkey.numberOfBananasInStash--;
 		console.log( 'Banana consumed,', monkey.numberOfBananasInStash, 'bananas left in banana stash.' );
 	}
 
