@@ -1,15 +1,13 @@
+
 'use strict';
 
 /*
 	Super complex instructions on how to use this program.
-
 	STEP 1: 
 	In your command prompt, go to the folder where you have this file.
-
 	STEP 2: 
 	Input the following line to run this high tech program:
 	node feedMyMonkey (PUT WHATEVER MONKEY NAME YOU WANT HERE!! GO BANANAS!!!)
-
 	THAT'S IT
 */
 
@@ -36,7 +34,7 @@ var myMonkey = new Monkey( myMonkeysName, 69 );
 
 
 
-// interact with my monkey
+// define my interactations with my monkey
 function feedMonkeyAllBananas( monkey ) {
 
 	console.log( 'Now feeding', monkey.name + ':' );
@@ -53,17 +51,9 @@ function feedMonkeyAllBananas( monkey ) {
 	console.log( 'All done.');
 	console.log( monkey.name + ' says:', 'Yummy yummy yummy, ookiee ookiee ookiee!!!' );
 	console.log( monkey.name + ' says:', 'Thanks for feeding me, I am full!!' );
+	console.log( myMonkey.name + ' consumed ' + myMonkey.stomachContents.length.toString() + ' bananas!!' );
 }
 
 
 // feed my monkey
 feedMonkeyAllBananas( myMonkey );
-
-
-// display my monkey
-var displayMessage =  myMonkey.name +
-	' consumed ' +
-	myMonkey.stomachContents.length.toString() + 
-	' bananas!!'
-
-console.log( displayMessage );
