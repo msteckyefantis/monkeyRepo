@@ -3,6 +3,7 @@
 
 /*
 	Super complex instructions on how to use this program.
+	
 	STEP 1: 
 	In your command prompt, go to the folder where you have this file.
 	
