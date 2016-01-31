@@ -1,4 +1,3 @@
-
 'use strict';
 
 /*
@@ -48,7 +47,7 @@ function feedMonkeyAllBananas( monkey ) {
 		console.log( 'Banana consumed,', monkey.numberOfBananasInStash, 'bananas left in banana stash.' );
 	}
 
-	console.log( 'All done.' );
+	console.log( 'All done.');
 	console.log( monkey.name + ' says:', 'Yummy yummy yummy, ookiee ookiee ookiee!!!' );
 	console.log( monkey.name + ' says:', 'Thanks for feeding me, I am full!!' );
 	console.log( myMonkey.name + ' consumed ' + myMonkey.stomachContents.length.toString() + ' bananas!!' );
