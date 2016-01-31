@@ -36,7 +36,7 @@ var myMonkey = new Monkey( myMonkeysName, 69 );
 
 
 
-// feed my monkey
+// interact with my monkey
 function eatAllBananas ( monkey ) {
 
 	console.log( 'Now feeding', monkey.name + ':' );
@@ -56,6 +56,7 @@ function eatAllBananas ( monkey ) {
 }
 
 
+// feed my monkey
 eatAllBananas( myMonkey );
 
 
