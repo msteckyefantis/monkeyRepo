@@ -5,9 +5,11 @@
 	Super complex instructions on how to use this program.
 	STEP 1: 
 	In your command prompt, go to the folder where you have this file.
+	
 	STEP 2: 
 	Input the following line to run this high tech program:
 	node feedMyMonkey (PUT WHATEVER MONKEY NAME YOU WANT HERE!! GO BANANAS!!!)
+	
 	THAT'S IT
 */
 
