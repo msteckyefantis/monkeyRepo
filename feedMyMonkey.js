@@ -24,7 +24,7 @@ function Monkey( name, numberOfBananasOwned ) {
     this.name = name;
     this.stomachContents = [];
     this.numberOfBananasInStash = numberOfBananasOwned;
-}
+};
 
 Monkey.prototype.eatBanana = function() {
 
@@ -53,7 +53,7 @@ function feedMonkeyAllBananas( monkey ) {
 	console.log( monkey.name + ' says:', 'Yummy yummy yummy, ookiee ookiee ookiee!!!' );
 	console.log( monkey.name + ' says:', 'Thanks for feeding me, I am full!!' );
 	console.log( monkey.name + ' consumed ' + monkey.stomachContents.length.toString() + ' bananas!!' );
-}
+};
 
 
 
